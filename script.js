@@ -10,7 +10,8 @@ class Stopwatch {
       minutes: 0,
       seconds: 0,
       miliseconds: 0
-    };
+    },
+    this.print();
   }
   print() {
     this.display.innerText = this.format(this.times);
